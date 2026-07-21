@@ -1,4 +1,4 @@
 #This is functions.
-def greetings():
-  print("Welcome to Python Programming class")
-greetings()
+def greetings(classname):
+  print(f"Welcome to {classname} class")
+greetings("Python")
